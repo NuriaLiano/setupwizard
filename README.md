@@ -2,6 +2,14 @@
 
 Este proyecto proporciona una API para acceder a datos almacenados en archivos CSV. La API está construida utilizando Node.js y se ejecuta dentro de un contenedor Docker.
 
+## Descargar imagen de DockerHub
+
+~~~cmd
+docker pull skillyinformatica/setupwizard
+~~~
+
+[View in DockerHub](https://hub.docker.com/r/skillyinformatica/setupwizard)
+
 ## Uso de la API
 
 ### Endpoints
