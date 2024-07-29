@@ -61,6 +61,8 @@ La API devuelve los siguientes campos en formato JSON:
 | Benchmark   | float                                     | Puntaje de referencia del componente               |
 | Samples     | int                                       | Número de muestras                                 |
 | URL         | string                                    | URL con más información sobre el componente        |
+| Price       | float                                     | Precio del componente en dólares                   |
+| Power (Watts)| float                                    | Potencia consumida por el componente en vatios     |
 
 
 #### Ejemplos de respuesta
@@ -76,7 +78,9 @@ La respuesta será un JSON con los datos del archivo CSV solicitado. Por ejemplo
     "Rank": "1",
     "Benchmark": "370",
     "Samples": "25956",
-    "URL": "https://gpu.userbenchmark.com/Nvidia-RTX-4090/Rating/4136"
+    "URL": "https://gpu.userbenchmark.com/Nvidia-RTX-4090/Rating/4136",
+    "Price": 1499.99,
+    "Power (Watts)": 350
   },
   {
     "Type": "GPU",
@@ -86,7 +90,9 @@ La respuesta será un JSON con los datos del archivo CSV solicitado. Por ejemplo
     "Rank": "1",
     "Benchmark": "370",
     "Samples": "25956",
-    "URL": "https://gpu.userbenchmark.com/Nvidia-RTX-4090/Rating/4136"
+    "URL": "https://gpu.userbenchmark.com/Nvidia-RTX-4090/Rating/4136",
+    "Price": 1599.99,
+    "Power (Watts)": 360
   }
 ]
 ~~~
